@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                      */import"./assets/vendor-77e16229.js";const e={form:document.querySelector(".form"),input:document.querySelector('[name="delay"]'),label:document.querySelector('[name="state"]')};e.form.addEventListener("input",u);e.form.addEventListener("submit",c);function u(t){var n;const o=e.input.value,r=(n=document.querySelector('[name="state"]:checked'))==null?void 0:n.value;console.log(o),console.log(r)}function c(t){t.preventDefault()}
+//# sourceMappingURL=commonHelpers2.js.map
