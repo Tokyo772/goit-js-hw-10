@@ -35,10 +35,10 @@ function handlerSubmit(evt) {
 
   createPromise(selectedDelay, selectedStatus)
     .then(value => {
-      return value;
+      console.log(value);
     })
     .catch(err => {
-      return err;
+      console.log(err);
     });
   elements.form.reset();
 }
@@ -61,6 +61,6 @@ function createPromise(selectedDelay, selectedStatus) {
           })
         );
       }
-    }, selectedDelay * 1000);
+    }, selectedDelay);
   });
 }
